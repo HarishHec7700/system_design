@@ -1,3 +1,5 @@
+// First we are creating the base Interface for both publisher and Observer 
+
 interface Observer{
     void update(String msg);
 }
@@ -7,6 +9,9 @@ interface Publisher{
     void removeObserver(Observer observer);
     void notifyObservers(String msg);
 }
+
+
+// Then here we are implementing classes from the base interface and adds some other properties if required.
 
 class Subscriber implements Observer{
     String name;
@@ -34,6 +39,8 @@ class EventPublisher implements Publisher{
         }
     }
 }
+
+// Here start the main code where the Client creates the Subscriber and the Publisher and does the job ...
 
 
 class Main{
