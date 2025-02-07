@@ -1,3 +1,4 @@
+// Observer Design pattern is a type of creation design pattern
 // First we are creating the base Interface for both publisher and Observer 
 
 interface Observer{

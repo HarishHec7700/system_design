@@ -1,3 +1,7 @@
+// Factory Design pattern is a type of creation design pattern
+// It provides one of the best ways to create an object.
+// A factory method returns an object of a class that is determined by the factory method.
+
 class main {
     interface Notification{
         void sendNotification(String message);
